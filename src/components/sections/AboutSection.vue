@@ -20,26 +20,9 @@ onUnmounted(() => {
         <section id="about" class="py-12 md:py-16 lg:py-20 bg-white relative border-t border-b border-gray-200">
     <div class="max-w-container mx-auto px-4" :style="{ transform: `translateY(${Math.max(0, scrollY * 0.05)}px)` }">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <!-- Left Side - Image/Dashboard Mockup -->
+        <!-- Left Side - Dashboard Image -->
         <div class="relative">
-          <div class="bg-gradient-to-br from-primary/10 to-emerald-100 rounded-2xl p-8 shadow-xl">
-            <div class="bg-white rounded-lg shadow-lg p-6">
-              <div class="flex items-center mb-4 space-x-2">
-                <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
-                <div class="w-3 h-3 rounded-full bg-green-500"></div>
-              </div>
-              <div class="space-y-3">
-                <div class="h-4 bg-gray-200 rounded w-3/4"></div>
-                <div class="h-4 bg-gray-200 rounded w-full"></div>
-                <div class="grid grid-cols-3 gap-2 mt-4">
-                  <div class="h-20 bg-primary/10 rounded"></div>
-                  <div class="h-20 bg-accent/10 rounded"></div>
-                  <div class="h-20 bg-emerald-100 rounded"></div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <img src="/src/assets/SSO.png" alt="Dashboard" class="w-full h-full object-cover rounded-3xl shadow-lg" />
           <!-- Decorative elements -->
           <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-accent/20 rounded-full blur-3xl -z-10"></div>
           <div class="absolute -top-4 -left-4 w-32 h-32 bg-primary/10 rounded-full blur-3xl -z-10"></div>
